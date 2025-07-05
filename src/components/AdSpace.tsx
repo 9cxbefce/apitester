@@ -22,7 +22,7 @@ export default function AdSpace({ slot, format = 'auto', className = '', style }
       <ins
         className="adsbygoogle"
         style={{ display: 'block', ...style }}
-        data-ad-client="ca-pub-XXXXXXXXXXXXXXXXX" // Replace with your AdSense publisher ID
+        data-ad-client="ca-pub-8979718632172270" // Replace with your AdSense publisher ID
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"
