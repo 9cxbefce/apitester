@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AdSense styling */
+.ad-container {
+  @apply flex items-center justify-center bg-gray-50 border border-gray-200 rounded-lg;
+}
+
+.ad-container ins {
+  @apply rounded-lg overflow-hidden;
+}
+
+/* Ensure ads don't break layout */
+.adsbygoogle {
+  display: block !important;
+}
